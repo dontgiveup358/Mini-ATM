@@ -30,7 +30,7 @@ namespace Mini_ATM
                     break;
 
                 case "2":
-                    Console.WriteLine("Enter the amount of money you want you want to withdraw.");
+                    Console.WriteLine("Enter the amount of money you want to withdraw.");
                     int withdrawn_amount = Convert.ToInt32(Console.ReadLine());
 
                     if (withdrawn_amount > budget)
